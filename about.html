@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B3K0LQ9HZW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B3K0LQ9HZW');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Monster Survivors - learn about our team, mission, and the story behind this exciting survival game.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="About Us - Monster Survivors">
+    <meta property="og:description" content="Learn about the team behind Monster Survivors and our mission to bring free, fun gaming to everyone.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://monstesurvivors.online/about.html">
+    <link rel="canonical" href="https://monstesurvivors.online/about.html">
+    <title>About Us - Monster Survivors</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
+            color: #1d1d1f;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        :root {
+            --primary-blue: #007AFF;
+            --secondary-blue: #5AC8FA;
+            --primary-gray: #8E8E93;
+            --light-gray: #F2F2F7;
+            --dark-gray: #1C1C1E;
+            --background-white: #FFFFFF;
+            --shadow-light: rgba(0, 0, 0, 0.1);
+            --shadow-medium: rgba(0, 0, 0, 0.2);
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 15px 0;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo::before { content: "🎮"; font-size: 28px; }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--dark-gray);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav a:hover { color: var(--primary-blue); }
+        .page-content { padding: 60px 0; }
+        .page-card {
+            background: var(--background-white);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 10px 25px var(--shadow-light);
+        }
+        .page-card h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--dark-gray);
+            margin-bottom: 20px;
+        }
+        .page-card h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--dark-gray);
+            margin: 35px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--light-gray);
+        }
+        .page-card p {
+            color: #3a3a3c;
+            margin-bottom: 15px;
+        }
+        .page-card ul { margin: 10px 0 20px 20px; color: #3a3a3c; }
+        .page-card li { margin-bottom: 8px; }
+        .page-card a { color: var(--primary-blue); }
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .value-card {
+            background: var(--light-gray);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .value-card .icon { font-size: 2.5rem; margin-bottom: 12px; display: block; }
+        .value-card h3 { font-size: 1.1rem; margin-bottom: 8px; color: var(--dark-gray); }
+        .value-card p { font-size: 0.9rem; margin-bottom: 0; }
+        footer {
+            background: var(--dark-gray);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        .footer-links a:hover { opacity: 1; }
+        .copyright { opacity: 0.6; font-size: 0.9rem; }
+        @media (max-width: 768px) {
+            .page-card { padding: 30px 20px; }
+            nav ul { display: none; }
+            .page-card h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">Monster Survivors</a>
+                <nav>
+                    <ul>
+                        <li><a href="/#game">Play Now</a></li>
+                        <li><a href="/#features">Features</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="page-card">
+                <h1>About Monster Survivors</h1>
+                <p>Welcome to Monster Survivors — your destination for free, browser-based survival gaming. We are passionate about bringing you an adrenaline-fueled gaming experience that you can enjoy anytime, anywhere, without needing to download or install anything.</p>
+
+                <h2>Our Mission</h2>
+                <p>Our mission is simple: make great games accessible to everyone. We believe that fun shouldn't come with barriers — no downloads, no payments, no complicated setups. Just pure, addictive gameplay that you can jump into in seconds.</p>
+
+                <h2>Why We Built This</h2>
+                <p>Monster Survivors was inspired by the growing popularity of survival-roguelike games. We wanted to create a space where players can experience the thrill of battling endless monster waves, collecting powerful upgrades, and pushing their survival skills to the limit — all from a web browser.</p>
+                <p>Whether you have five minutes or five hours, Monster Survivors delivers a satisfying challenge that adapts to your playstyle. Each run is different, with randomized power-ups and enemy patterns that keep the gameplay fresh.</p>
+
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <span class="icon">🎮</span>
+                        <h3>Quality Gaming</h3>
+                        <p>We carefully select and provide games that offer smooth performance, engaging mechanics, and polished visuals.</p>
+                    </div>
+                    <div class="value-card">
+                        <span class="icon">💰</span>
+                        <h3>Always Free</h3>
+                        <p>No hidden fees, no pay-to-win, no subscriptions. Our games are and always will be free to play.</p>
+                    </div>
+                    <div class="value-card">
+                        <span class="icon">🌐</span>
+                        <h3>No Downloads</h3>
+                        <p>Everything runs in your browser. Play on any device — desktop, tablet, or phone — instantly.</p>
+                    </div>
+                    <div class="value-card">
+                        <span class="icon">🔄</span>
+                        <h3>Regular Updates</h3>
+                        <p>We continuously improve our game library with new titles, features, and performance enhancements.</p>
+                    </div>
+                </div>
+
+                <h2>Our Story</h2>
+                <p>Monster Survivors started as a small passion project in 2025. What began as a simple collection of browser games has grown into a dedicated platform for free online entertainment. We're a small team of gaming enthusiasts who believe that the web is the ultimate gaming platform — accessible, versatile, and constantly evolving.</p>
+                <p>We spend countless hours finding and curating the best browser games, optimizing them for performance, and ensuring they work flawlessly across all devices. Every game on our site is tested and tuned to deliver the best possible experience.</p>
+
+                <h2>What's Next</h2>
+                <p>We have exciting plans for the future:</p>
+                <ul>
+                    <li>Expanding our game library with more genres and titles</li>
+                    <li>Adding community features like leaderboards and achievements</li>
+                    <li>Improving mobile touch controls for a better on-the-go experience</li>
+                    <li>Bringing more original content including game guides and tips</li>
+                </ul>
+
+                <h2>Get In Touch</h2>
+                <p>We love hearing from our players! Whether you have feedback, suggestions, or just want to say hi, feel free to <a href="/contact.html">reach out to us</a>. Your input helps us make Monster Survivors better for everyone.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="/">Home</a>
+                    <a href="/#game">Play Game</a>
+                    <a href="/about.html">About</a>
+                    <a href="/contact.html">Contact</a>
+                    <a href="/privacy-policy.html">Privacy Policy</a>
+                </div>
+                <p class="copyright">&copy; 2026 MonsterSurvivors.online. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
